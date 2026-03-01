@@ -1,7 +1,9 @@
 function App() {
   return (
     <>
-      <h1>Hello From The Server</h1>
+      <h1 style={{ textAlign: "center", backgroundColor: "red" }}>
+        Hello From The Server
+      </h1>
     </>
   );
 }
