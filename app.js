@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "dist")));
 
 // Handle React routing (SPA fallback)
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "dist", "../frontend/test/index.html"));
+  res.sendFile(path.join(__dirname, "dist", "./dist/index.html"));
 });
 
 app.listen(PORT, () => {
